@@ -12,6 +12,13 @@ Delimiters fail because data can contain them; escaping works but complicates bo
 
 **Complexity:** O(total bytes) both ways.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
